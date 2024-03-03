@@ -5,50 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media= "screen and (max-width:800px)"href="tablet.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
 </head>
-<body>
+<body class="body">
     <nav class="navbar">
         <ul>
-            <li> <a href="#">Home</a></li>
-            <li> <a href="#">About Me</a></li>
-            <li> <a href="#">Projects</a></li>
-            <li> <a href="#">Services</a></li>
-            <li> <a href="#">Cotact Me</a></li>
+            <li> <a href="#home">Home</a></li>
+            <li> <a href="#about">About Me</a></li>
+            <li> <a href="#projects">Projects</a></li>
+            <li> <a href="#services">Services</a></li>
+            <li> <a href="#contact">Cotact Me</a></li>
         </ul>
     </nav>
 
     <section id="home">
         <div class="main">
             <h1 class="headings">I am <br> Gayashani Divyanjalee</h1>
-            
+            <h3>Software Engineering Undergraduate</h3>
+            <br><br>
             <button class="btn">
                 See more
             </button>
         </div>
-    </section>
+    </section >
+    
 
     <section id="about">
         <h1 class="headings">ABOUT ME</h1>
         <div class="pic">
-            
-            <img src="img/img2.png" alt="">
+            <!-- <img src="img/img3.png" alt=""> -->
             <div class="intro">
-                <h2>Gayashani Divyanjalee</h2>
-                <br><br>
                 <p>
-                    I'm a 3rd-year Software Engineering Undergraduate at General Sir John Kotelawala Defence University 
-                    who is an ambitious individual with a great passion for the Software Industry. I am eager to learn new 
-                    technologies and adapt to different environments. I enjoy overcoming challenges and undertaking any 
-                    situation that comes across responsibly.
-                    I'm a 3rd-year Software Engineering Undergraduate at General Sir John Kotelawala Defence University 
-                    who is an ambitious individual with a great passion for the Software Industry. I am eager to learn new 
-                    technologies and adapt to different environments. I enjoy overcoming challenges and undertaking any 
-                    situation that comes across responsibly.
-                    I'm a 3rd-year Software Engineering Undergraduate at General Sir John Kotelawala Defence University 
-                    who is an ambitious individual with a great passion for the Software Industry. I am eager to learn new 
-                    technologies and adapt to different environments. I enjoy overcoming challenges and undertaking any 
-                    situation that comes across responsibly.
+                    I am a dedicated and ambitious individual currently in my third year pursuing a Software Engineering degree at 
+                    General Sir John Kotelawala Defence University. Fueled by a profound passion for the Software Industry, I am on an 
+                    unwavering quest to expand my knowledge and expertise in this dynamic field.
+                    My journey as a Software Engineering undergraduate is marked by a relentless pursuit of excellence, a commitment to continuous learning, 
+                    and a genuine enthusiasm for embracing new technologies. I find joy in overcoming challenges and thrive in environments that demand 
+                    daptability and innovation. Every hurdle is an opportunity to learn and grow, and I approach each situation with a sense of 
+                    responsibility and determination.
+                    <br> <br>
+                    My academic journey has provided me with a strong foundation in software engineering principles, and I have complemented this knowledge
+                     with a proactive approach to staying abreast of the latest industry trends. I am not merely a student; I am a proactive learner who seeks
+                      out opportunities to apply theoretical knowledge in practical settings.Driven by curiosity and a desire to contribute 
+                      meaningfully to the world of software, I am excited about the future possibilities that await in this ever-evolving 
+                      industry. I look forward to leveraging my skills and passion to make impactful contributions and bring innovative s
+                      olutions to life. Join me on this journey of exploration, growth, and endless possibilities in the realm of software engineering.
+                      <br> <br>
+                      In addition to my technical skills, I bring a collaborative and proactive mindset to any team or project. I believe in fostering an e
+                      nvironment where ideas flourish, teamwork thrives, and every challenge becomes a collective opportunity for success. I am 
+                      excited about the limitless possibilities that the software industry offers, and I am ready to contribute my skills, 
+                      passion, and determination to make a meaningful impact. Let's embark on this exciting journey of exploration, growth, 
+                      and innovation together!
                 </p>
+                
             </div>
         </div>
     </section>
@@ -62,6 +73,50 @@
             <img src="img/img4.jpg" alt="">
             <img src="img/img5.jpeg" alt="">
             <img src="img/img4.jpg" alt="">
+        </div>
+    </section>
+
+    <section id="services">
+        <h1 class="headings">SERVICES</h1>
+        <div class="row">
+            <div class="box">
+                <img src="img/img4.jpg" alt="service">
+                <h1 class="headings1">Website Design</h1>
+                <p>As a passionate and skilled web designer, I offer a comprehensive service that transforms concepts into captivating online experiences. 
+                    With a commitment to staying current with industry trends and technologies, I ensure that the websites I design are not only aesthetically 
+                    pleasing but also technologically sound and future-ready. </p>
+            </div>
+
+            <div class="box">
+                <img src="img/img4.jpg" alt="service">
+                <h1 class="headings1">Web Development</h1>
+                <p>As a passionate and skilled web designer, I offer a comprehensive service that transforms concepts into captivating online experiences. 
+                    With a commitment to staying current with industry trends and technologies, I ensure that the websites I design are not only aesthetically 
+                    pleasing but also technologically sound and future-ready. </p>
+            </div>
+
+            <div class="box">
+                <img src="img/img4.jpg" alt="service">
+                <h1 class="headings1">Software Development</h1>
+                <p>As a passionate and skilled web designer, I offer a comprehensive service that transforms concepts into captivating online experiences. 
+                    With a commitment to staying current with industry trends and technologies, I ensure that the websites I design are not only aesthetically 
+                    pleasing but also technologically sound and future-ready. </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1 class="headings">CONTACT</h1>
+        <form action="" class="form">
+            <input type="text" name="name" class="input" placeholder="Enter Your Name">
+            <input type="email" name="email" class="input" placeholder="Enter Your Email">
+            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+            <input type="submit" value="SEND" id="send">
+        </form>
+        <div class="home-sci">
+            <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+            <a href="#"><i class='bx bxl-instagram' ></i></a>
+            <a href="#"><i class='bx bxl-linkedin' ></i></a>
         </div>
     </section>
 </body>
